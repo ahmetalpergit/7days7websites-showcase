@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-    background-color: var(--color-red);
+    background-color: var(--color-cyan);
     color: var(--color-dark);
 }
 
@@ -117,10 +117,11 @@ background: var(--color-cyan); /* Gecko Browsers */
 
 .project__day {
     height: 3rem;
-    width: 3rem;
+    width: 4rem;
     padding-top: 2.5px;
     text-align: center;
-    background-color: var(--color-red);
+    color: var(--color-dark);
+    background-color: var(--color-cyan);
     font-weight: var(--font-bold);
     position: absolute;
     top: 0;
@@ -145,6 +146,7 @@ background: var(--color-cyan); /* Gecko Browsers */
 
 .project__title {
     width: 100%;
+    font-weight: var(--font-bold);
     text-align: center;
 }
 
@@ -154,4 +156,5 @@ background: var(--color-cyan); /* Gecko Browsers */
 }
 
 .copyright__description {
+    font-size: 1.3rem;
 }
