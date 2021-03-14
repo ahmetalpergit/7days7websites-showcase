@@ -3,8 +3,8 @@ import React from 'react'
 function Header() {
     return (
         <header className="header">
-            <h1 className="header__heading heading--primary">Welcome to 7 Days 7 Websites!</h1>
-            <p className="header__description description">I've decided to keep my HTML and CSS skills sharp during the pandemic and created a fun challenge to recreate 7 websites in 7 days. Below you'll find the links to these websites and their original sources.</p>
+            <h1 className="header__heading heading--primary">7 Days 7 Websites Challenge</h1>
+            <p className="header__description description">Hello and welcome! I've decided to keep my HTML and CSS skills sharp during the pandemic and created a fun little challenge to recreate 7 websites in 7 days.<a href="https://www.siteinspire.com/" target="_blank" rel="noreferrer">SiteInspire</a>was my go-to for inspiration on this one. Below you'll find the links to these websites and their original sources.</p>
         </header>
     )
 }

@@ -8,10 +8,10 @@ function Project({
 }) {
     return (
         <article className="project">
-          <img className="project__img" src={imgPath} alt=""/>
+          <img className="project__img" src={imgPath} alt={"image " + title} />
           <div className="project__link">
-                <a href={myUrl} className="project__title">{title}</a>
-                <a href={originalUrl} className="project__title">Original</a>
+                <a href={myUrl} className="project__title" target="_blank" rel="noreferrer">{title}</a>
+                <a href={originalUrl} className="project__title" target="_blank" rel="noreferrer">Original</a>
           </div>
         </article>
     )
