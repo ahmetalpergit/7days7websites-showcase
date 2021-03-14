@@ -107,18 +107,18 @@ background: var(--color-cyan); /* Gecko Browsers */
     overflow: hidden;
     max-width: 30rem;
     height: 20rem;
+    display: flex;
+    justify-content: center;
 }
 
 .project__img {
     height: 100%;
 }
 
-
-
 .project__day {
-    height: 2.7rem;
-    width: 2.7rem;
-    padding-top: 1px;
+    height: 3rem;
+    width: 3rem;
+    padding-top: 2.5px;
     text-align: center;
     background-color: var(--color-red);
     font-weight: var(--font-bold);

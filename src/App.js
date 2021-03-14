@@ -7,8 +7,8 @@ function App() {
     <main className="projects-container">
       <Header />
       <div className="projects">
-        {projectsAPI.map((el, i) => {
-          return <Project key={i} day={i + 1} title={el.title} imgPath={el.path} myUrl={el.myUrl} originalUrl={el.originalUrl} />
+        {projectsAPI.map(el => {
+          return <Project key={el.key} day={el.key} title={el.title} imgPath={el.path} myUrl={el.myUrl} originalUrl={el.originalUrl} />
         })}
       </div>
       <div className="copyright">
