@@ -10,7 +10,7 @@ function Project({
         <article className="project">
           <img className="project__img" src={imgPath} alt=""/>
           <div className="project__link">
-                <a href={myUrl} className="project__title">{title + ' My version'}</a>
+                <a href={myUrl} className="project__title">{title}</a>
                 <a href={originalUrl} className="project__title">Original</a>
           </div>
         </article>

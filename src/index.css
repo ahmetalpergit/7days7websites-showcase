@@ -1,3 +1,13 @@
+:root {
+    --font-thin: 200;
+    --font-regular: 400;
+    --font-bold: 700;
+    --color-dark: #252a34;
+    --color-light: #eaeaea;
+    --color-cyan: #08d9d6;
+    --color-red: #ff2e63;
+}
+
 *,
 *::before,
 *::after {
@@ -9,4 +19,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+a {
+    color: var(--color-red);
+    text-decoration: none;
 }
