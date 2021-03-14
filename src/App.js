@@ -8,7 +8,7 @@ function App() {
       <Header />
       <div className="projects">
         {projectsAPI.map((el, i) => {
-          return <Project key={i} title={el.title} imgPath={el.path} myUrl={el.myUrl} originalUrl={el.originalUrl} />
+          return <Project key={i} day={i + 1} title={el.title} imgPath={el.path} myUrl={el.myUrl} originalUrl={el.originalUrl} />
         })}
       </div>
       <div className="copyright">
