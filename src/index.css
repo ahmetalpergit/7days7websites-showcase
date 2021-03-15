@@ -41,10 +41,10 @@ a:hover {
 }
 
 ::selection {
-    background: var(--color-cyan); /* WebKit/Blink Browsers */
+    background: var(--color-red); /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-background: var(--color-cyan); /* Gecko Browsers */
+background: var(--color-red); /* Gecko Browsers */
 }
 
 .heading--primary {
