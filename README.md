@@ -1,7 +1,7 @@
 # 7 days 7 Websites - Showcase
 > Presentation of my 7 days 7 websites [challenge](https://github.com/ahmetalpergit/7-days-7-websites/) by [Ahmet Alper](https://github.com/ahmetalpergit)
 
-# ![showcase](public\img\github-preview.jpg)
+# ![showcase](public/img/github-preview.jpg)
 
 ## Introduction
 
